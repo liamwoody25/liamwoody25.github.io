@@ -9,7 +9,6 @@
     font-family: 'Reddit-Mono',sans-serif;
 }
 
-
 body{
     margin: 0;
     padding: 0;
@@ -196,3 +195,14 @@ li{
  font-size: 50px;
 }
 
+
+
+
+
+/********  media-query  *********/
+
+@media (max-width: 600px) {
+   .nav-bar{
+    max-width: auto;
+   }
+}
