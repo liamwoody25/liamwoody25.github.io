@@ -99,7 +99,6 @@ li{
 
 .About-content{
     margin-left: 5%;
-    border: 5px solid #18314F;
     overflow: scroll;
     width: 50%;
     height: 260px;
@@ -139,7 +138,7 @@ li{
 
 .project-content { 
     text-align: center;
-    width: 350px;
+    width: 300px;
    
   
    
