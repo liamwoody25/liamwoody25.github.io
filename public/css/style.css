@@ -31,7 +31,7 @@ a:hover{
 .nav-bar{
    display: flex;
    align-items: center;
-   justify-content:space-around;
+   justify-content:space-evenly;
    background-color: var(---bg-color);
 }
 
@@ -40,6 +40,19 @@ a:hover{
     color: var(---txt-color);
 }
 
+.Contact-btn{
+    background-color:#3CA8E8;
+    border: none;
+    height: 50px;
+    width: 150px;
+    border-radius: 28px;
+    color:var(---txt-color) ;
+    font-size: 19px;
+}
+
+.Contact-btn:hover{
+    opacity: 0.8;
+}
 
 /******* intro-section *******/
 
@@ -67,8 +80,6 @@ a:hover{
 
 .Technical-skills-section{
     justify-content: space-between;
-   
-  
 }
 
 .skills-content{
@@ -139,7 +150,7 @@ li{
 
 .project-content { 
     text-align: center;
-    width: 300px;
+    width: 310px;
    
   
    
@@ -168,7 +179,7 @@ li{
 }
 
 .project:hover{
-    opacity: 0.8;
+    opacity: 0.5;
 }
 
 
