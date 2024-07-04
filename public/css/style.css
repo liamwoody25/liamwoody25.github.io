@@ -22,7 +22,7 @@ body{
 a {
     text-decoration: none;
     color: var(---txt-color);
-    font-size: 20px;
+    font-size: 19px;
 }
 
 a:hover{
@@ -134,7 +134,7 @@ li{
 }
 
 .projects{
-    margin-left:5px;
+    justify-content: center;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -155,9 +155,6 @@ li{
 .project-content { 
     text-align: center;
     width: 310px;
-   
-  
-   
 }
 
 .project-content h3{
@@ -201,24 +198,46 @@ li{
     align-items: center;
 }
 
+.bottom-nav{
+    justify-content: space-evenly;
+}
+
 .Contact{
     flex-wrap: wrap;
     color: #E5E6E4;
 }
 
 
-.icons{
- font-size: 50px;
+.fa-github{
+    font-size: 30px;
 }
 
+.fa-linkedin{
+    font-size: 30px;
+}
+
+.fa-envelope{
+    font-size: 30px;
+}
 
 
 
 
 /********  media-query  *********/
 
-@media screen and (min-width: 481px){
-    nav{
-       
+@media screen and (max-width: 481px){
+    .main-container{
+        max-width: 1440px;
+    }
+
+    .nav-bar{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .projects-section{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
     }
 }
