@@ -9,6 +9,10 @@
     font-family: 'Reddit-Mono',sans-serif;
 }
 
+.main-container{
+
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -212,3 +216,9 @@ li{
 
 
 /********  media-query  *********/
+
+@media screen and (min-width: 481px){
+    nav{
+       
+    }
+}
