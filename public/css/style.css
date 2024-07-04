@@ -10,7 +10,6 @@
 }
 
 .main-container{
-
 }
 
 body{
@@ -22,7 +21,7 @@ body{
 a {
     text-decoration: none;
     color: var(---txt-color);
-    font-size: 19px;
+    font-size: 18px;
 }
 
 a:hover{
@@ -113,7 +112,6 @@ li{
 
 .About-content{
     margin-left: 5%;
-    overflow: scroll;
     width: 50%;
     height: 260px;
     border-radius: 15px;
@@ -121,8 +119,35 @@ li{
     padding: 10px;
 }
 
+.About-content h2{
+    color: #18314F;
 
-/********* My-Projects *******/
+}
+
+/********  Education  *************/
+
+.Education-content{
+    text-align: end;
+    color: var(---txt-color);
+    width: 50%;
+}
+
+.Education-content h2{
+    color: #18314F;
+}
+
+/********** Experience  **********/
+.Experience-content{
+    color: var(---txt-color);
+    margin-left: 5%;
+    width: 50%;
+}
+
+.Experience-content h2{
+    color: #18314F;
+}
+
+/********* My-Projects *********/
 
 .projects-section{
     display: flex;
@@ -180,25 +205,26 @@ li{
 }
 
 .project:hover{
-    opacity: 0.5;
+    opacity: 0.7;
+    transition: ease-in;
 }
-
 
 /************  footer-section  ***********/
 
 .footer-section{
     background-color: #18314F;
-    padding-right:30px ;
+    padding-right:30px;
 
 }
 
 .info-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 
 .bottom-nav{
+
     justify-content: space-evenly;
 }
 
@@ -209,15 +235,15 @@ li{
 
 
 .fa-github{
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .fa-linkedin{
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .fa-envelope{
-    font-size: 30px;
+    font-size: 26px;
 }
 
 
@@ -231,8 +257,10 @@ li{
     }
 
     .nav-bar{
+        justify-content: space-evenly;
         display: flex;
         flex-wrap: wrap;
+        gap: 10px;
     }
 
     .projects-section{
