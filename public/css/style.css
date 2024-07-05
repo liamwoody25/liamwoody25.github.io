@@ -2,6 +2,7 @@
 :root{
     ---bg-color:#18314F;
     ---txt-color:#E5E6E4;
+    ---txt-color-2:#18314F;
     ---bg-color-2:#3CA8E8,#2931B3;
 }
 
@@ -121,16 +122,16 @@ li{
 }
 
 .About-content h2{
-    color: #18314F;
+    color: var(---txt-color-2);
 
 }
 
 /********  Education  *************/
 
 .Education-content{
-    background-color: #2931B3;
+    background-color:#E5E6E4;
     text-align: end;
-    color: var(---txt-color);
+    color:#18314F;
     width: 100%;
 }
 
@@ -140,14 +141,13 @@ li{
 
 /********** Experience  **********/
 .Experience-content{
-    color:#18314F;
-    margin-left: 5%;
+    color:var(---txt-color);
     width: 100%;
-    background-color: #E5E6E4;
+    background-color:var(---bg-color);
 }
 
 .Experience-content h2{
-    color: #18314F;
+    color:#E5E6E4;
 }
 
 /********* My-Projects *********/
