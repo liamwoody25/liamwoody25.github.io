@@ -112,6 +112,7 @@ li{
 
 .About-content{
     margin-left: 5%;
+    overflow: scroll;
     width: 50%;
     height: 260px;
     border-radius: 15px;
@@ -127,9 +128,10 @@ li{
 /********  Education  *************/
 
 .Education-content{
+    background-color: #2931B3;
     text-align: end;
     color: var(---txt-color);
-    width: 50%;
+    width: 100%;
 }
 
 .Education-content h2{
@@ -138,9 +140,10 @@ li{
 
 /********** Experience  **********/
 .Experience-content{
-    color: var(---txt-color);
+    color:#18314F;
     margin-left: 5%;
-    width: 50%;
+    width: 100%;
+    background-color: #E5E6E4;
 }
 
 .Experience-content h2{
