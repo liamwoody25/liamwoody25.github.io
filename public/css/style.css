@@ -26,11 +26,11 @@ body{
 a {
     text-decoration: none;
     color: var(---txt-color);
-    font-size: 18px;
+    font-size: 1.3em;
 }
 
 a:hover{
-    opacity: 0.4;
+    opacity: 0.5;
 }
 
 
@@ -48,8 +48,10 @@ a:hover{
 
 
 .nav-items{
-   display: flex;
-   justify-content: space-between;
+    justify-content: stretch;
+    margin-top: 2%;
+    display: flex;
+    gap: 20px;
 }
 .Contact-btn{
     background-color:#3CA8E8;
