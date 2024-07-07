@@ -1,0 +1,29 @@
+/********  general  ***********/
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Kode Mono',sans-serif;
+}
+
+.main-container{
+    width: 100%;
+    max-width: 1240px;
+}
+/*********** header-section  *******/
+.nav-header{
+
+}
+
+.projects-section{
+   display: flex;
+  
+}
+
+.projects .project{
+    background-color: white;
+    width: 50%;
+    
+}
+
+

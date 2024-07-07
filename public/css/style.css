@@ -152,19 +152,16 @@ li{
 .projects{
     justify-content: center;
     display: flex;
-    flex-wrap: wrap;
     gap: 20px;
   
    
 }
 
 .projects .project{
-    display: flex;
-    flex-wrap: wrap;
+
     width: calc((100%-80%)/3);
     background-color:whitesmoke;
     height: 290px;
-    border-radius: 15px;
     margin-bottom: 35px;
 }
 
