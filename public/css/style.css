@@ -7,7 +7,6 @@
 
 *{
     font-family: 'kode Mono',sans-serif;
-   
 }
 
 .main-container{
@@ -157,10 +156,9 @@ li{
    
 }
 
-.projects .project{
+ .project{
 
     width: calc((100%-80%)/3);
-    background-color:whitesmoke;
     height: 290px;
     margin-bottom: 35px;
 }
@@ -193,34 +191,15 @@ li{
     object-fit:fill;
 }
 
-.project:hover{
-    opacity: 0.7;
-    transition: ease-in;
-}
+
 
 /************  footer-section  ***********/
 
 .footer-section{
-    background-color: #18314F;
-    padding-right:30px;
-
-}
-
-.info-container{
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+
 }
 
-.bottom-nav{
-
-    justify-content: space-evenly;
-}
-
-.Contact{
-    flex-wrap: wrap;
-    color: #E5E6E4;
-}
 
 
 .fa-github{
