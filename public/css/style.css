@@ -17,9 +17,11 @@
 }
 
 body{
+    background: url(/public/images/bluea\ and\ black\ bg.jpg);
+    background-size: cover;
     margin: 0;
     padding: 0;
-    background-color:gray;
+
 }
 
 a {
@@ -74,6 +76,10 @@ a:hover{
     justify-content: center;
 }
 
+.background-img{
+    object-fit: contain;
+    max-width: 1120px;
+}
 .intro-content{
     color: var(---txt-color);
     line-height: 18px;
