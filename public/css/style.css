@@ -1,8 +1,6 @@
 /*********** General *********/
 :root{
-    ---bg-color:#18314F;
-    ---txt-color:#E5E6E4;
-    ---bg-color-2:#3CA8E8,#2931B3;
+    ---txt-color:gray;
 }
 
 *{
@@ -17,8 +15,6 @@
 }
 
 body{
-    background: url(/public/images/bluea\ and\ black\ bg.jpg);
-    background-size: cover;
     margin: 0;
     padding: 0;
 

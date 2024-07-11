@@ -1,10 +1,14 @@
 /********  general  ***********/
 
+:root{
+    ---txt-color:#495057;
+}
+
 body{
     padding: 0;
     margin: 0;
     font-family: 'Kode Mono',sans-serif;
-    background-image: linear-gradient(gray,#0000);
+    background-color: lightgray;
 }
 
 .container{
@@ -16,7 +20,7 @@ body{
 
 a{
     text-decoration: none;
-    color:#E5E6E4;
+    color:#495057;
     font-size: 1.3em;
 }
 
@@ -32,7 +36,7 @@ a:hover{
 }
 
 .main-title{
-    color: #E5E6E4;
+    color:#495057;
 }
 
 .nav-items{
@@ -51,10 +55,19 @@ a:hover{
 
 .project-1{
     display: flex;
-    background-color:#ffff;
+    background-color:#495057;
     width: 480px;
     height: 280px;
     border-radius: 20px 0px 0px 20px;
+}
+
+.p1{
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+    border:2px solid #495057;
+    background-color: lightgray;
+    font-size: 1em;
 }
 
 .project-2{
@@ -71,7 +84,7 @@ a:hover{
 }
 
 .project-details h2{
-    color: #E5E6E4;
+    color: whitesmoke;
     padding-left: 25px;
 }
 
