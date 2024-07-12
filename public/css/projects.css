@@ -61,17 +61,9 @@ a:hover{
     border-radius: 20px 0px 0px 20px;
 }
 
-.btn{
-    padding-left: 25px;
-}
-
-.p1{
-    border-radius: 20px;
-    width: 120px;
-    height: 40px;
-    border:2px solid #495057;
-    background-color: lightgray;
-    font-size: 1em;
+.p1:hover{
+    padding-left: 125px;
+    opacity: 0.3;
 }
 
 .project-2{
@@ -105,5 +97,5 @@ li{
     border-radius: 20px 5px 5px 20px;
     width: 490px;
     height: 280px;
-    object-fit: cover;
+    object-fit:cover;
 }
