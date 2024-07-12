@@ -75,6 +75,13 @@ a:hover{
     border-radius: 5px 20px 20px 5px;
 }
 
+.project-3{
+    background-image:linear-gradient( to left ,lightgray,#fff) ;
+    width: 480px;
+    height: 280px;
+    border-radius: 20px 0px 0px 20px;
+}
+
 .project-details{
     padding-left: 25px;
 }
