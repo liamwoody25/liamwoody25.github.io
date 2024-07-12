@@ -67,16 +67,10 @@ a:hover{
 /******* intro-section *******/
 
 .intro-section{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.background-img{
-    object-fit: contain;
-    max-width: 1120px;
+    
 }
 .intro-content{
+    margin-top: 200px;
     color: var(---txt-color);
     line-height: 18px;
     text-align: center;
@@ -92,23 +86,14 @@ a:hover{
 
 /********* Technical-skills ********/
 
-.Technical-skills-section{
-    justify-content: space-between;
-}
-
 .skills-content{
-    position: absolute;
-    right: 5%;
-    padding: 10px;
     display: flex;
     flex-wrap: wrap;
-    width: 30%;
-    height: 250px;
     font-size: 18px;
-    border-radius: 15px;
+    background-color: lightgray;
     justify-content: center;
     color: var(---txt-color);
-    line-height: 30px;
+    margin-top: 300px;
 }
 
 li{
@@ -116,84 +101,20 @@ li{
 
 }
 
-
-
 /******** About-section **********/
-
 .About-content{
-    margin-left: 5%;
-    overflow: scroll;
-    width: 50%;
-    height: 260px;
-    border-radius: 15px;
+    margin-top: 160px;
     color: var(---txt-color);
-    padding: 10px;
 }
 
 .About-content h2{
+    text-align: center;
     color: var(---txt-color);
 }
 
 .About-content p{
     font-family: 'Reddit-Mono',sans-serif;
 }
-
-
-/********* My-Projects *********/
-
-.projects-section{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    color:var(---txt-color);
-
-  
-}
-
-.projects{
-    justify-content: center;
-    display: flex;
-    gap: 20px;
-  
-   
-}
-
- .project{
-
-    width: calc((100%-80%)/3);
-    height: 290px;
-    margin-bottom: 35px;
-}
-
-.project-content { 
-    text-align: center;
-    width: 310px;
-}
-
-.project-content h3{
-    font-family: 'Reddit-Mono',sans-serif;
-    color: #18314F;
-    font-size: 19px;
-}
-
-.project-content p{
-    padding-left: 5px;
-    margin-top: 1px;
-    text-align:center;
-    color:#18314F;
-    font-size: 15px;
-    
-}
-
-.project img{
-    border-top-left-radius:15px;
-    border-top-right-radius: 15px;
-    width: 100%;
-    height: 220px;
-    object-fit:fill;
-}
-
-
 
 /************  footer-section  ***********/
 
@@ -204,10 +125,11 @@ li{
 
 .icons{
    
+    
+   
 }
 
 .fa-github{
-    color:#E5E6E4;
     font-size: 35px;
 }
 

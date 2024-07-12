@@ -55,10 +55,14 @@ a:hover{
 
 .project-1{
     display: flex;
-    background-color:#495057;
+    background-image:linear-gradient(to left,lightgray,#fff);
     width: 480px;
     height: 280px;
     border-radius: 20px 0px 0px 20px;
+}
+
+.btn{
+    padding-left: 25px;
 }
 
 .p1{
@@ -73,7 +77,7 @@ a:hover{
 .project-2{
     position: relative;
     left: 63%;
-    background-color: #ffff;
+    background-image: linear-gradient(to left,#fff,lightgray);
     width: 480px;
     height: 280px;
     border-radius: 5px 20px 20px 5px;
