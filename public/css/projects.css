@@ -11,7 +11,7 @@ body{
     background-color: lightgray;
 }
 
-.container{
+.main-container{
     width: 85%;
     max-width: 1240px;
     margin-left:auto;
@@ -54,7 +54,6 @@ a:hover{
 }
 
 .project-1{
-    display: flex;
     background-image:linear-gradient(to left,lightgray,#fff);
     width: 480px;
     height: 280px;
@@ -105,4 +104,12 @@ li{
     width: 490px;
     height: 280px;
     object-fit:cover;
+}
+
+/**********  media-query  ***********/
+
+@media screen and (max-width: 481px) {
+    .container{
+        max-width: 1240px;
+    }
 }

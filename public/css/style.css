@@ -27,7 +27,7 @@ a {
 }
 
 a:hover{
-    opacity: 0.5;
+    opacity: 0.4;
 }
 
 
@@ -49,19 +49,6 @@ a:hover{
     margin-top: 2%;
     display: flex;
     gap: 20px;
-}
-.Contact-btn{
-    background-color:#3CA8E8;
-    border: none;
-    height: 50px;
-    width: 150px;
-    border-radius: 28px;
-    color:var(---txt-color) ;
-    font-size: 19px;
-}
-
-.Contact-btn:hover{
-    opacity: 0.8;
 }
 
 /******* intro-section *******/
@@ -90,7 +77,7 @@ a:hover{
     border-radius: 20px;
     border: 3px solid darkgray;
     background-color: #fff;
-    font-size: 1.1em
+    font-size: 0.9em;
 }
 
 
@@ -113,16 +100,17 @@ li{
 
 /******** About-section **********/
 .About-content{
+
     margin-top: 120px;
     color: var(---txt-color);
 }
 
 .About-content h2{
-    text-align: center;
     color: var(---txt-color);
 }
 
 .About-content p{
+    width: 50%;
     font-family: 'Reddit-Mono',sans-serif;
 }
 
@@ -133,11 +121,7 @@ li{
     justify-content: center;
 }
 
-.icons{
-   
-    
-   
-}
+
 
 .fa-github{
     font-size: 35px;
