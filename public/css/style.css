@@ -100,17 +100,16 @@ li{
 
 /******** About-section **********/
 .About-content{
-
     margin-top: 120px;
     color: var(---txt-color);
 }
 
 .About-content h2{
+    text-align: center;
     color: var(---txt-color);
 }
 
 .About-content p{
-    width: 50%;
     font-family: 'Reddit-Mono',sans-serif;
 }
 
@@ -140,7 +139,7 @@ li{
 
 /********  media-query  *********/
 
-@media screen and (max-width: 481px){
+@media screen and (min-width: 481px){
     .main-container{
         max-width: 1440px;
     }
