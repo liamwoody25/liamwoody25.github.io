@@ -8,7 +8,6 @@ body{
     padding: 0;
     margin: 0;
     font-family: 'Kode Mono',sans-serif;
-    background-color: lightgray;
 }
 
 .main-container{
@@ -20,7 +19,7 @@ body{
 
 a{
     text-decoration: none;
-    color:#495057;
+    color:gray;
     font-size: 1.3em;
 }
 
@@ -36,7 +35,7 @@ a:hover{
 }
 
 .main-title{
-    color:#495057;
+    color:gray;
 }
 
 .nav-items{
@@ -55,7 +54,7 @@ a:hover{
 
 .project-1{
     display: flex;
-    background-image:linear-gradient(to left,lightgray,#fff);
+    background-image:linear-gradient(to left,#fff,lightgray);
     width: 480px;
     height: 280px;
     border-radius: 20px 0px 0px 20px;
@@ -87,7 +86,7 @@ a:hover{
 }
 
 .project-details h2{
-    color: whitesmoke;
+    color: lightgray;
     padding-left: 25px;
 }
 
