@@ -11,7 +11,7 @@ body{
 }
 
 .main-container{
-    width: 85%;
+    width: 80%;
     max-width: 1240px;
     margin-left:auto;
     margin-right: auto;
@@ -66,31 +66,34 @@ a:hover{
 }
 
 .project-2{
-    position: relative;
-    left: 63%;
-    background-image: linear-gradient(to left,#fff,lightgray);
+    display: flex;
+    align-items: end;
+
+    background-image: linear-gradient(to left,lightgray,#fff);
     width: 480px;
     height: 280px;
     border-radius: 5px 20px 20px 5px;
 }
 
 .project-3{
-    background-image:linear-gradient( to left ,lightgray,#fff) ;
+    background-image:linear-gradient( to left ,#fff,lightgray) ;
     width: 480px;
     height: 280px;
     border-radius: 20px 0px 0px 20px;
 }
 
 .project-details{
+ 
     padding-left: 25px;
 }
 
 .project-details h2{
-    color: lightgray;
+    color: gray;
     padding-left: 25px;
 }
 
 .project-details p {
+    color:gray;
     padding-left: 25px;
     width: 80%;
 }
