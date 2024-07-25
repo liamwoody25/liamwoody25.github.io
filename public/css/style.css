@@ -93,9 +93,8 @@ a:hover{
     color: var(---txt-color);
     margin-top: 230px;
     justify-content: space-evenly;
-    border: 2px solid darkgray;
+    background-color: lightgray;
     border-radius: 15px;
-    
 }
 
 li{
@@ -112,36 +111,64 @@ li{
 
 .About-content h2{
     font-size: 39px;
-    text-align: center;
     color: var(---txt-color);
 }
 
 .About-content p{
     font-family: 'Reddit-Mono',sans-serif;
 }
+
+
 /*********  Education  ********/
+
 .Education-content{
-    background-color: lightgray;
+    display: flex;
+    flex-wrap: wrap;
     color: gray;
 }
 
 .Education-content h2{
     font-size: 39px;
-    text-align: center;
 }
 
 .Education-content p{
-    justify-content: baseline;
     font-family: 'Reddit-Mono',sans-serif;
 }
-/************  footer-section  ***********/
 
-.footer-section{
+
+/************  contact-section  ***********/
+
+.contact-content{
+    background-color: lightgray;
+}
+
+.contact-content h2{
+    color: gray;
+    font-size: 39px;
+    justify-content: center;
+  
+}
+.contact-form{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-email{
     display: flex;
     justify-content: center;
 }
 
+.contact-name{
+    display: flex;
+    justify-content: center;
+}
 
+.social-media{
+    display: flex;
+    justify-content: end;
+   gap: 10px;
+    
+}
 
 .fa-github{
     font-size: 35px;

@@ -54,10 +54,10 @@ a:hover{
 
 .project-1{
     display: flex;
-    background-image:linear-gradient(to left,#fff,lightgray);
+    background-image:gray;
     width: 480px;
     height: 280px;
-    border-radius: 20px 0px 0px 20px;
+    border-radius: 20px;
 }
 
 .p1:hover{
@@ -67,16 +67,14 @@ a:hover{
 
 .project-2{
     display: flex;
-    align-items: end;
-
-    background-image: linear-gradient(to left,lightgray,#fff);
+    background-image:lightgray;
     width: 480px;
     height: 280px;
-    border-radius: 5px 20px 20px 5px;
+    border-radius: 20px;
 }
 
 .project-3{
-    background-image:linear-gradient( to left ,#fff,lightgray) ;
+    background-image:lightgray;
     width: 480px;
     height: 280px;
     border-radius: 20px 0px 0px 20px;
