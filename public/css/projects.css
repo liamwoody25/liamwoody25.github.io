@@ -52,12 +52,21 @@ a:hover{
     justify-items: center;
 }
 
-.project-1{
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+
+}
+
+.projects .project{
     display: flex;
     background-color: gray;
     width: 490px;
     height: 280px;
     border-radius: 20px;
+
+   
 }
 
 .p1:hover{
@@ -65,32 +74,17 @@ a:hover{
     opacity: 0.3;
 }
 
-.project-2{
-    display: flex;
-    background-color:gray;
-    width: 480px;
-    height: 280px;
-    border-radius: 20px;
+
+.project-content{
+   
 }
 
-.project-3{
-    background-image:lightgray;
-    width: 480px;
-    height: 280px;
-    border-radius: 20px 0px 0px 20px;
-}
-
-.project-details{
- 
-    padding-left: 25px;
-}
-
-.project-details h2{
+.project-content h2{
     color: gray;
     padding-left: 25px;
 }
 
-.project-details p {
+.project-content p {
     color:gray;
     padding-left: 25px;
     width: 80%;
@@ -101,7 +95,7 @@ li{
 }
 
 .project-image img{
-    border-radius: 20px 5px 5px 20px;
+    border-radius: 20px;
     width: 490px;
     height: 280px;
     object-fit:fill;
