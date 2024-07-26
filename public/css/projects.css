@@ -59,6 +59,10 @@ a:hover{
 
 }
 
+.project-3{
+    display: flex;
+    flex-wrap: wrap;
+}
 .projects .project{
     display: flex;
     background-color: gray;
@@ -74,7 +78,9 @@ a:hover{
     opacity: 0.3;
 }
 
-
+.project-content{
+    width: 500px;
+}
 
 
 .project-content h2{
@@ -85,7 +91,7 @@ a:hover{
 .project-content p {
     color:gray;
     padding-left: 25px;
-    width: 80%;
+    width: 400px;
 }
 
 li{
@@ -96,7 +102,7 @@ li{
     border-radius: 20px;
     width: 490px;
     height: 280px;
-    object-fit:fill;
+    object-fit:contain;
 }
 
 /**********  media-query  ***********/

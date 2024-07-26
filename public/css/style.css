@@ -151,6 +151,21 @@ li{
 .contact-form{
     display: flex;
     flex-wrap: wrap;
+    gap: 20px;
+}
+
+.contact-name input{
+    border-radius:3px;
+    width: 200px;
+    border: 0;
+    box-shadow: inset;
+    border-bottom: solid white;
+}
+
+.contact-email input{
+    border-radius: 3px;
+    width: 200px;
+    border: 0;
 }
 
 .contact-email{
@@ -164,7 +179,7 @@ li{
 }
 
 .social-media{
-    display: flex;
+
     justify-content: end;
    gap: 10px;
     
