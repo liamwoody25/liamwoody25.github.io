@@ -140,6 +140,7 @@ li{
 
 .contact-content{
     background-color: lightgray;
+    border-radius: 15px;
 }
 
 .contact-content h2{
@@ -168,6 +169,14 @@ li{
     border: 0;
 }
 
+.contact-message input{
+    gap: 30px;
+    width: 250px;
+    height: 150px;
+    border: 0;
+    border-radius: 3px;
+}
+
 .contact-email{
     display: flex;
     justify-content: center;
@@ -177,24 +186,34 @@ li{
     display: flex;
     justify-content: center;
 }
+.contact-message{
+    display: flex;
+    justify-content: center;
+}
+
+.right-container{
+    padding-right: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+}
 
 .social-media{
-
+    text-align: center;
     justify-content: end;
-   gap: 10px;
     
 }
 
 .fa-github{
-    font-size: 35px;
+    font-size: 45px;
 }
 
 .fa-linkedin{
-    font-size: 35px;
+    font-size: 45px;
 }
 
 .fa-envelope{
-    font-size: 35px;
+    font-size: 45px;
 }
 
 
