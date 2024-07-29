@@ -212,9 +212,9 @@ textarea{
 
 /********  media-query  *********/
 
-@media screen and (min-width: 375px){
+@media screen and (max-width: 480px){
     .main-container{
-        width: 75%;
+        width: 65%;
         max-width: 1440px;
     }
 
@@ -222,17 +222,11 @@ textarea{
         justify-content: space-evenly;
         display: flex;
         flex-wrap: wrap;
-        gap: 10px;
+      
     }
     .intro-section{
         display: flex;
         flex-wrap: wrap;
         line-height: 35px;
-    }
-    
-    .projects-section{
-        display: flex;
-        flex-wrap: wrap;
-        gap: 20px;
     }
 }
