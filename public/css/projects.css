@@ -69,8 +69,7 @@ a:hover{
     width: 490px;
     height: 280px;
     border-radius: 20px;
-
-   
+    box-shadow: 0 10px 20px lightgray;
 }
 
 .p1:hover{
@@ -78,17 +77,18 @@ a:hover{
     opacity: 0.3;
 }
 
-.project-content{
+.project-body{
     width: 500px;
+
 }
 
 
-.project-content h2{
+.project-body h2{
     color: gray;
     padding-left: 25px;
 }
 
-.project-content p {
+.project-body p {
     color:gray;
     padding-left: 25px;
     width: 400px;
@@ -100,11 +100,11 @@ li{
     list-style: none;
 }
 
-.project-image img{
+.project-image{
     border-radius: 20px;
     width: 490px;
     height: 280px;
-    object-fit:contain;
+    object-fit:fill;
 }
 
 /**********  media-query  ***********/
