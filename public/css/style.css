@@ -146,65 +146,69 @@ li{
 .contact-content h2{
     padding: 15px 15px 0px 0px ;
     padding-left: 15px;
+    display: flex;
+    justify-content:center;
     color: gray;
     font-size: 39px;
-    display: flex;
-    justify-content: start;
+
   
 }
 .contact-form{
     display: flex;
     flex-wrap: wrap;
-    gap: 40px;
-    justify-content: space-evenly;
+
+    justify-content: space-around;
 }
 
 
 input {
+    margin-top: 10px;
+    margin-bottom: 15px;
     outline: none;
     display: flex;
     flex-wrap: wrap;
-    justify-content: stretch;
     border-radius:3px;
-    width: 250px;
+    width: 280px;
     border: 0;
     border-bottom: solid white;
 }
 
 textarea{
+    display: flex;
+    margin-top: 20px;
     outline: none;
+    flex-wrap: wrap;
     border-radius: 4px;
     border: 0;
-    width: 250px;
+    width: 280px;
     height: 50px;
 }
 
 
 .right-container{
-    padding: 55px 15px 55px 45px ;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: right;
+    padding: 55px 15px 55px 45px ;
+    gap: 20px;
+    justify-content: center;
     align-items: center;
 }
 
 .social-media{
-   
     text-align: center;
-    justify-content: end;
+
     
 }
 
 .fa-github{
-    font-size: 45px;
+    font-size: 35px;
 }
 
 .fa-linkedin{
-    font-size: 45px;
+    font-size: 35px;
 }
 
 .fa-envelope{
-    font-size: 45px;
+    font-size: 35px;
 }
 
 
@@ -214,12 +218,12 @@ textarea{
 
 @media screen and (max-width: 480px){
     .main-container{
-        width: 65%;
+        width: 75%;
         max-width: 1440px;
     }
 
     .nav-bar{
-        justify-content: space-evenly;
+        justify-content: space-between;
         display: flex;
         flex-wrap: wrap;
       
@@ -227,6 +231,11 @@ textarea{
     .intro-section{
         display: flex;
         flex-wrap: wrap;
-        line-height: 35px;
+        line-height: 55px;
+    }
+
+    .skills-content{
+        display: flex;
+        flex-wrap: wrap;
     }
 }

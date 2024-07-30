@@ -7,11 +7,11 @@
 body{
     padding: 0;
     margin: 0;
-    font-family: 'Kode Mono',sans-serif;
+    font-family:'Reddit Mono',sans-serif;
 }
 
 .main-container{
-    width: 85%;
+    width: 75%;
     max-width: 1440px;
     margin-left:auto;
     margin-right: auto;
@@ -47,26 +47,25 @@ a:hover{
 
 /******  project-secction  ************/
 .projects-section{
+    display: flex;
     padding-top: 10%;
-  
-    justify-items: center;
+
 }
 
 .projects{
     display: flex;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 60px;
 
 }
 
-.project-3{
-    display: flex;
-    flex-wrap: wrap;
-}
+
+
 .projects .project-card{
+    
     display: flex;
     background-color: gray;
-    width: 490px;
+    width: 450px;
     height: 280px;
     border-radius: 20px;
     box-shadow: 0 10px 20px lightgray;
@@ -79,19 +78,24 @@ a:hover{
 
 .project-body{
     width: 500px;
+    padding-right: 5px;
+
 
 }
 
 
 .project-body h2{
+    font-family: 'Kode Mono',sans-serif;
     color: gray;
     padding-left: 25px;
+    font-size: 32px;
 }
 
 .project-body p {
     color:gray;
     padding-left: 25px;
     width: 400px;
+    font-size: 18px;
 }
 
 
@@ -100,9 +104,14 @@ li{
     list-style: none;
 }
 
+.link{
+    font-size: 18px;
+    padding-right: 15px;
+}
+
 .project-image{
     border-radius: 20px;
-    width: 490px;
+    width: 450px;
     height: 280px;
     object-fit:fill;
 }
@@ -123,12 +132,16 @@ li{
 
 
     .porjects{
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
+       display: flex;
+       flex-wrap: wrap;
     }
     .projects.project-card{
         width: 350px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .project-body{
         display: flex;
         flex-wrap: wrap;
     }
