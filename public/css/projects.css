@@ -71,7 +71,7 @@ a:hover{
     box-shadow: 0 10px 20px lightgray;
     position: relative;
     overflow: hidden;
-    transition: 1.5s;
+    
     
     
 }
@@ -89,11 +89,13 @@ a:hover{
     width: 450px;
     position: absolute;
     padding-right: 5px;
-    background: rgba(211, 211, 211, 0.361);
+    background: rgba(211, 211, 211, 0.521);
     border-radius: 20px;
     backdrop-filter: blur(5px);
     bottom: -100%;
+    transition: 2s;
 }
+
 
 .tech{
     display: flex;
