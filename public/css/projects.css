@@ -76,33 +76,27 @@ a:hover{
     opacity: 0.3;
 }
 
-.project-body{
+.project-content{
+    width: 100%;
     position: absolute;
-    width: 500px;
+   
     padding-right: 5px;
-
 
 }
 
 
-.project-body h2{
+.project-content h4{
   
     color: gray;
     padding-left: 25px;
     font-size: 32px;
 }
 
-.project-body p {
+.project-content p {
     color:gray;
     padding-left: 25px;
     width: 400px;
     font-size: 18px;
-}
-
-.text-body{
-    
-    display: flex;
-    flex-wrap: wrap;
 }
 
 li{
@@ -132,6 +126,19 @@ li{
     .nav-header{
         display: flex;
         flex-wrap: wrap;
+    }
+
+    .project-content{
+        width: 250px;
+        font-size: 45px;
+    }
+
+    .project-content h4{
+        font-size: 25px;
+    }
+
+    .project-content p{
+        font-size: 15px;
     }
 
 
