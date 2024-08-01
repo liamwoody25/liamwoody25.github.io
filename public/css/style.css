@@ -85,16 +85,16 @@ a:hover{
 /********* Technical-skills ********/
 
 .skills-content{
-    line-height: 65px;
+    line-height: 75px;
     display: flex;
     font-size: 20px;
     flex-wrap: wrap;
     gap: 30px;
-    color: white;
-    margin-top: 230px;
+    color:gray;
+    margin-top: 170px;
     justify-content: space-evenly;
-    background-color: darkgray;
-    border-radius: 15px;
+    background-color: whitesmoke;
+ 
 }
 
 li{
