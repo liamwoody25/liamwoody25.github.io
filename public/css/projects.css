@@ -57,6 +57,7 @@ a:hover{
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
+    justify-content: center;
 
 }
 
@@ -149,6 +150,11 @@ li{
     .nav-header{
         display: flex;
         flex-wrap: wrap;
+    }
+
+    .projects-section{
+        display: flex;
+        justify-content: center;
     }
     
     .project-card{
