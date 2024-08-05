@@ -48,9 +48,21 @@ a:hover{
 
 /******  project-secction  ************/
 .projects-section{
-   
-    padding-top: 10%;
+    padding-top: 5%;
+}
 
+.info-section{
+    padding-bottom: 100px;
+    
+}
+
+.info-section h1{
+    color: gray;
+    font-size: 29px;
+}
+
+.info-section p{
+    
 }
 
 .projects{
