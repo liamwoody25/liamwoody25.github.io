@@ -1,12 +1,37 @@
-/*********** General *********/
+/*********** utils *********/
 :root{
     ---txt-color:gray;
+    ---bg-color:#ffffff;
+
 }
 
 *{
     font-family: 'kode Mono',sans-serif;
 }
 
+
+h2{
+    font-size: 46px;
+}
+
+
+p {
+    font-size: 19px;
+}
+
+/******  components  ********/
+
+a {
+    text-decoration: none;
+    color: var(---txt-color);
+    font-size: 20px;
+}
+
+a:hover{
+    opacity: 0.4;
+}
+
+/********  body  *********/
 .main-container{
     width: 75%;
     max-width: 1240px;
@@ -18,16 +43,6 @@ body{
     margin: 0;
     padding: 0;
 
-}
-
-a {
-    text-decoration: none;
-    color: var(---txt-color);
-    font-size: 20px;
-}
-
-a:hover{
-    opacity: 0.4;
 }
 
 
@@ -65,11 +80,11 @@ a:hover{
 
 .intro-content h2{
     line-height: 40px;
-    font-size: 46px;
+    font-size: 2.875rem;
 }
 
 .intro-content p{
-    font-size: 19px;
+    font-size: 1.188;
 }
 
 .intro-btn{
