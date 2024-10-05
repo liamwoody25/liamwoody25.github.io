@@ -73,7 +73,7 @@ body{
 .info-section{
     display: flex;
     flex-wrap: wrap;
-    padding: 90px;
+    padding: 10px;
     
 }
 
@@ -162,7 +162,7 @@ li{
 
 .link{
     font-size: 18px;
-    padding-right: 15px;
+    padding: 25px;
 }
 
 .project-img{
