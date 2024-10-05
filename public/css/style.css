@@ -7,11 +7,12 @@
 /****  fonts  ****/
 
 * {
-    font-family: 'kode Mono',sans-serif;
+    font-family: 'Reddit-Mono',sans-serif;
 }
 
 
 h2{
+    font-family:'kode Mono',sans-serif ;
     font-size: 46px;
 }
 
@@ -128,7 +129,7 @@ li{
 }
 
 .About-content p{
-    font-family: 'Reddit-Mono',sans-serif;
+    font-family: ;
 }
 
 
