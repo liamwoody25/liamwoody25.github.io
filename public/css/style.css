@@ -37,16 +37,16 @@ a:hover{
 body{
     margin: 0;
     padding: 0;
-   
-
 }
 
 
 /******* header-section ******/
 .nav-header{
-    margin: 20px 80px;
     display: flex;
+    flex-direction: row;
+    margin: 20px 80px;
     flex-wrap: wrap;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -56,9 +56,9 @@ body{
 }
 
 
-.nav-items{
+.nav-items ul{
+    align-items: center;
     justify-content: stretch;
-    margin-top: 2%;
     display: flex;
     gap: 70px;
 }
@@ -129,7 +129,7 @@ li{
 }
 
 .About-content p{
-    font-family: ;
+    
 }
 
 
@@ -154,17 +154,18 @@ li{
 .contact-form{
     display: flex;
     flex-wrap: wrap;
-
     justify-content: space-around;
 }
 
 
 input {
+    margin-left: 15px;
     margin-top: 10px;
     margin-bottom: 20px;
     outline: none;
     border-radius:3px;
     width: 280px;
+    height: 20spx;
     border: 0;
     border-bottom: solid white;
 }
@@ -182,29 +183,21 @@ textarea{
 
 .right-container{
     display: flex;
-    padding: 55px 15px 55px 45px ;
     gap: 20px;
     justify-content: center;
     align-items: center;
 }
 
 .social-media{
+    gap: 20px;
     text-align: center;
 
     
 }
 
-.fa-github{
-    color: #fff;
-    font-size: 35px;
-}
-
-.fa-linkedin{
-    color: #fff;
-    font-size: 35px;
-}
-
-.fa-envelope{
+.fa-github,
+.fa-envelope,
+.fa-linkedin {
     color: #fff;
     font-size: 35px;
 }
