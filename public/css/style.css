@@ -207,19 +207,26 @@ textarea{
 
 /********  media-query  *********/
 
-@media screen and (max-width: 481px){
+@media screen and (max-width: 375px){
     .main-container{
         width: 75%;
         max-width: 1440px;
     }
 
-    .nav-bar{
+    .nav-header{
+        margin: 50px 16px;
         justify-content: space-between;
         display: flex;
         flex-wrap: wrap;
       
     }
+
+    .nav-items ul {
+        display: flex;
+        gap: 40px;
+    }
     .intro-section{
+        margin: 135px;
         display: flex;
         flex-wrap: wrap;
         line-height: 55px;
@@ -229,4 +236,6 @@ textarea{
         display: flex;
         flex-wrap: wrap;
     }
+
+
 }
