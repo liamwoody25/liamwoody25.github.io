@@ -80,7 +80,7 @@ p {
 }
 
 a {
-  color: #fff;
+  color: #e5e5e5;
   text-decoration: none;
   transition: 0.9s;
 }
@@ -273,6 +273,9 @@ nav {
   margin: 37px -17px;
 }
 
+.project-info > h2 {
+  color: #edede9;
+}
 .project-info > p  {
   color: #fff;
 }
@@ -368,7 +371,7 @@ nav {
 
 #Contact {
   background-color: #242424;
-  margin: -35px -17px;
+  margin: -35px -17px 0px;
   padding: 57px 4px;
 }
 
@@ -409,6 +412,38 @@ textarea {
   width: 70%;
   height: auto;
 }
+
+/** contact section **/
+
+
+
+
+/** footer section **/
+
+footer {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.icons {
+  display: flex;
+  gap: 10px;
+}
+
+.fa-square-linkedin,
+.fa-github,
+.fa-discord {
+  font-size: 25px;
+  color: #fff;
+}
+
+/** footer section **/
+
+
+
+
 
 /**** media queries *****/
 
@@ -488,9 +523,17 @@ textarea {
 
   /**** technical skills ****/
 
+
+  /**** About me ****/
+
   #About-me {
     margin: 70px 0 70px;
   }
+
+  /**** About me ****/
+
+
+
 
 
   /**** projects container ****/
@@ -513,5 +556,178 @@ textarea {
 
   .project-cards .project-card {
     width: 46%;
+  }
+
+  /**** projects container ****/
+
+
+
+
+  /**** contact section ****/
+
+  #Contact {
+    margin: 17px -77px;
+    padding: 50px;
+  }
+
+  input {
+    width: 50%;
+  }
+
+  textarea {
+    width: 51%;
+  }
+
+  /**** contact section ****/
+
+}
+
+/**** media queries tablet ****/
+
+
+
+/**** media queries desktop ****/
+
+@media screen and (min-width:1024px) {
+
+  /**** typeography ****/
+
+  h2 {
+    font-size: 55px;
+  }
+  
+  /**** body ****/
+
+  .container {
+    margin: 0 auto;
+    width: 86%;
+    max-width: 1440px;
+  }
+
+  /**** body ****/
+
+
+
+  /**** header ****/
+
+  header {
+    display: flex;
+  }
+
+  .left-screen-menu {
+    position: absolute;
+    right: 106px;
+  }
+
+  /**** header ****/
+
+  
+
+  /**** hero section ****/
+
+  .hero-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .hero-content > h2 {
+    width: 85%;
+  }
+
+  .hero-content > p {
+    font-size: 20px;
+  }
+
+  /**** hero section ****/
+
+
+
+
+  /**** technical skills ****/
+
+  #Technical-skills {
+    margin-left:-103px;
+    margin-right: -103px;
+  }
+
+  /**** technical skills ****/
+
+
+
+
+  /**** About Me ****/
+
+
+  /**** About Me ****/
+
+
+
+  /**** portfolio projects ****/
+
+  #Projects {
+    margin-right: -103px;
+    margin-left: -103px;
+  }
+
+  .project-cards {
+    display: flex;
+    gap: 25px;
+  }
+  .project-cards .project-card {
+    width: 38%;
+  }
+
+  .project-info > h2{
+    font-size: 60px;
+    margin-bottom: 20px;
+  }
+
+  .project-info > p {
+    font-size: 20px;
+    color: aliceblue;
+  }
+
+  .project-content .link{
+    font-size: 16px;
+  }
+
+  .project-content > p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  /**** portfolio projects ****/
+
+
+
+
+
+  /**** portfolio Contact ****/
+
+  .contact-content {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+ 
+  /**** portfolio Contact ****/
+
+
+
+  /**** portfolio footer ****/
+
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .icons {
+    gap: 21px;
   }
 }
