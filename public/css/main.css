@@ -219,8 +219,7 @@ nav {
 .javascript-icon {
   width: 50px;
   height: auto;
-  transition: 0.4s;
-  transition-timing-function: ease-in;
+  
   
 }
 
@@ -228,14 +227,28 @@ nav {
 .css-icon:hover,
 .Github_light-icon:hover,
 .javascript-icon:hover {
-  transform: scale(1.3);
-  opacity: 0.4;
+  width: 43px;
+  height: auto;
+  background-color: #caf0f8;
+  transition-timing-function: ease-in;
+  transform: scale(1.0);
+  border-radius: 0px 0px 19px 19px;
 }
 
 .icon-content {
   position: relative;
   display: block;
+  transition: 0.4s;
 }
+
+.icon-content:hover {
+  transition-timing-function: ease-in;
+  transition: 0.4s;
+  transform: scale(1.3);
+  opacity: 0.5;
+}
+
+
 .icon-text {
   display: none;
   position: absolute;
@@ -293,7 +306,10 @@ nav {
   box-shadow: 0 6px 14px -9px black;
   position: relative;
   overflow: hidden;
+  
 }
+
+
 
 
 .project-card:hover .project-content {
@@ -558,6 +574,12 @@ footer {
     width: 46%;
   }
 
+  .project-cards .project-card:hover {
+    transform: scale(1.1);
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out;
+  }
+
   /**** projects container ****/
 
 
@@ -675,7 +697,7 @@ footer {
     gap: 25px;
   }
   .project-cards .project-card {
-    width: 38%;
+    width: 40%;
   }
 
   .project-info > h2{
