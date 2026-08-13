@@ -332,13 +332,14 @@ nav {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  padding-bottom: 15px;
+  padding: 4px;
   position: absolute;
   top: 250px;
   transition: 0.3s;
 }
 
 .project-content > p {
+  font-size: 14px;
   width: 98%;
 }
 
@@ -619,7 +620,7 @@ footer {
 
 /**** media queries desktop ****/
 
-@media screen and (min-width:1440px) {
+@media screen and (min-width:1024px) {
 
   /**** typeography ****/
 
@@ -631,7 +632,7 @@ footer {
 
   .container {
     margin: 0 auto;
-    width: 74%;
+    width: 69%;
     max-width: 1440px;
   }
 
