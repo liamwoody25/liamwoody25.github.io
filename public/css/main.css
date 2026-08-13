@@ -264,6 +264,10 @@ nav {
 
 /** About Me **/
 
+#About-me {
+  margin: 60px 0 60px;
+}
+
 .About-me-content {
   padding: 160px 16px;
   line-height: 20px;
@@ -276,7 +280,7 @@ nav {
 /** projects container **/
 
 #Projects {
-  padding: 36px 10px;
+  padding: 50px 10px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -286,8 +290,13 @@ nav {
   margin: 37px -17px;
 }
 
+.project-info {
+  margin-bottom: 25px;
+}
+
 .project-info > h2 {
   color: #edede9;
+  margin: 0;
 }
 .project-info > p  {
   color: #fff;
@@ -297,7 +306,7 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
+  gap: 30px;
 }
 
 .project-cards .project-card {
@@ -359,7 +368,7 @@ nav {
   gap: 20px;
 }
 
-.tech-content > h4 {
+.tech-content > h5 {
   color: #fff;
   margin-top: 8px;
   margin-bottom: 0;
@@ -610,7 +619,7 @@ footer {
 
 /**** media queries desktop ****/
 
-@media screen and (min-width:1024px) {
+@media screen and (min-width:1440px) {
 
   /**** typeography ****/
 
@@ -622,7 +631,7 @@ footer {
 
   .container {
     margin: 0 auto;
-    width: 86%;
+    width: 74%;
     max-width: 1440px;
   }
 
@@ -697,7 +706,7 @@ footer {
     gap: 25px;
   }
   .project-cards .project-card {
-    width: 40%;
+    width: 42%;
   }
 
   .project-info > h2{
@@ -717,6 +726,11 @@ footer {
   .project-content > p {
     font-size: 16px;
     line-height: 24px;
+  }
+
+  .project-img {
+    object-fit: cover;
+    width: 100%;
   }
 
   /**** portfolio projects ****/
