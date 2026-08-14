@@ -33,6 +33,7 @@ p {
 
 
 
+
 /*** portfolio components ***/
 
 .ham-burger {
@@ -86,7 +87,7 @@ a {
 }
 
 a:hover {
-  transform: scale(1.25);
+  transform: scale(1.10);
 }
 
 .links {
@@ -121,7 +122,7 @@ a:hover {
 
 body {
   margin: 0;
-  background-color: #151515;
+  background-color:#151515 ;
 }
 
 /*** portfolio body ***/
@@ -195,10 +196,10 @@ nav {
 
 /** Technical skills **/
 
-#Technical-skills {
-  margin: -15px;
+#Skills {
+  margin: -15px -18px;
   padding: 170px 16px;
-  background-color: #4682bb;
+  background-color:#4682bb;
 }
 
 .skills-info {
@@ -335,7 +336,7 @@ nav {
   padding: 4px;
   position: absolute;
   top: 250px;
-  transition: 0.3s;
+  transition: 0.9s;
 }
 
 .project-content > p {
@@ -537,7 +538,7 @@ footer {
 
   /**** technical skills ****/
 
-  #Technical-skills {
+  #Skills {
     margin-left: -77px;
     margin-right: -76px;
     padding: 160px 10px;
@@ -585,8 +586,8 @@ footer {
   }
 
   .project-cards .project-card:hover {
-    transform: scale(1.1);
-    transition-duration: .5s;
+    transform: scale(1.0);
+    transition-duration: .7s;
     transition-timing-function: ease-in-out;
   }
 
@@ -632,7 +633,7 @@ footer {
 
   .container {
     margin: 0 auto;
-    width: 69%;
+    width: 80%;
     max-width: 1440px;
   }
 
@@ -678,7 +679,7 @@ footer {
 
   /**** technical skills ****/
 
-  #Technical-skills {
+  #Skills {
     margin-left:-103px;
     margin-right: -103px;
   }
