@@ -660,6 +660,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    text-align: center;
   }
 
   .hero-content > h2 {
