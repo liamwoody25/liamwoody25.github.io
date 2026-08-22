@@ -80,14 +80,15 @@ p {
   top: 20px;
 }
 
+/**** a tags/ links ****/
 a {
   color: #e5e5e5;
   text-decoration: none;
-  transition: 0.9s;
+  transition: 0.5s;
 }
 
 a:hover {
-  transform: scale(1.10);
+  transform: scale(1.15);
 }
 
 .links {
@@ -106,6 +107,10 @@ a:hover {
   background-color: #4682bb;
   border-radius: 8px;
 }
+
+/**** a tags/ links ****/
+
+
 /*** portfolio components ***/
 
 
@@ -313,7 +318,7 @@ nav {
 .project-cards .project-card {
   border-radius: 20px;
   width: 100%;
-  box-shadow: 0 6px 14px -9px black;
+  box-shadow: 0px 1px 12px -5px white;
   position: relative;
   overflow: hidden;
   
@@ -336,7 +341,7 @@ nav {
   padding: 4px;
   position: absolute;
   top: 250px;
-  transition: 0.9s;
+  transition: 0.8s;
 }
 
 .project-content > p {
@@ -584,13 +589,6 @@ footer {
   .project-cards .project-card {
     width: 46%;
   }
-
-  .project-cards .project-card:hover {
-    transform: scale(1.0);
-    transition-duration: .7s;
-    transition-timing-function: ease-in-out;
-  }
-
   /**** projects container ****/
 
 
@@ -621,7 +619,7 @@ footer {
 
 /**** media queries desktop ****/
 
-@media screen and (min-width:1024px) {
+@media screen and (min-width:1440px) {
 
   /**** typeography ****/
 
@@ -633,7 +631,7 @@ footer {
 
   .container {
     margin: 0 auto;
-    width: 80%;
+    width: 85%;
     max-width: 1440px;
   }
 
@@ -675,6 +673,7 @@ footer {
   /**** hero section ****/
 
 
+  
 
 
   /**** technical skills ****/
@@ -688,14 +687,6 @@ footer {
 
 
 
-
-  /**** About Me ****/
-
-
-  /**** About Me ****/
-
-
-
   /**** portfolio projects ****/
 
   #Projects {
@@ -705,10 +696,10 @@ footer {
 
   .project-cards {
     display: flex;
-    gap: 25px;
+    gap: 30px;
   }
   .project-cards .project-card {
-    width: 42%;
+    width: 27%;
   }
 
   .project-info > h2{
@@ -731,11 +722,12 @@ footer {
   }
 
   .project-img {
-    object-fit: cover;
+    object-fit: fill;
     width: 100%;
   }
 
   /**** portfolio projects ****/
+
 
 
 
