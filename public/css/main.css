@@ -233,16 +233,13 @@ nav {
 .css-icon:hover,
 .Github_light-icon:hover,
 .javascript-icon:hover {
-  width: 43px;
-  height: auto;
-  background-color: #caf0f8;
-  transition-timing-function: ease-in;
-  transform: scale(1.0);
-  border-radius: 0px 0px 19px 19px;
+  transition-timing-function: ease-in-out;
+  transition-duration: 4s;
+
+  transform: scale(1.1);
 }
 
 .icon-content {
-  position: relative;
   display: block;
   transition: 0.4s;
 }
@@ -326,7 +323,6 @@ nav {
 
 
 
-
 .project-card:hover .project-content {
   position: absolute;
   top: 0px;
@@ -399,6 +395,8 @@ nav {
 
 
 
+
+
 /** contact section **/
 
 #Contact {
@@ -446,6 +444,7 @@ textarea {
 }
 
 /** contact section **/
+
 
 
 
@@ -654,6 +653,7 @@ footer {
 
   
 
+
   /**** hero section ****/
 
   .hero-content {
@@ -693,6 +693,10 @@ footer {
   #Projects {
     margin-right: -103px;
     margin-left: -103px;
+  }
+
+  .project-info {
+    margin-left: -24px;
   }
 
   .project-cards {
