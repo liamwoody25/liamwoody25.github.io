@@ -190,8 +190,9 @@ nav {
   flex-wrap: wrap;
 }
 
-.hero-content h2 {
+.hero-content h1 {
   margin: 0;
+  font-size: 30px;
 }
 
 /** hero section **/
@@ -204,7 +205,7 @@ nav {
 #Skills {
   margin: -15px -18px;
   padding: 170px 16px;
-  background-color:#4682bb;
+  background-color:#014F86;
 }
 
 .skills-info {
@@ -214,7 +215,6 @@ nav {
 .skills-content {
   display: flex;
   justify-content: space-evenly;
-  flex-wrap: wrap;
   align-items: center;
   gap: 40px;
 }
@@ -225,8 +225,6 @@ nav {
 .javascript-icon {
   width: 50px;
   height: auto;
-  
-  
 }
 
 .html5-icon:hover,
@@ -253,10 +251,10 @@ nav {
 
 
 .icon-text {
-  display: none;
-  position: absolute;
+  display: flex;
   justify-content: center;
-  left: 19px;
+  flex-wrap: wrap;
+  text-align: center;
   bottom: 23px;
 }
 
@@ -289,7 +287,7 @@ nav {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #4682bb;
+  background-color: #014F86;
   margin: 37px -17px;
 }
 
@@ -302,7 +300,7 @@ nav {
   margin: 0;
 }
 .project-info > p  {
-  color: #fff;
+  color: #E7ECEF;
 }
 
 .project-cards {
@@ -429,18 +427,23 @@ input {
   border: 2px solid #fff;
   height: 43px;
   outline: none;
+  background-color: transparent;
+  color: #E7ECEF;
 }
 
-:placeholder-shown {
-  color: #d9d9d9;
+input::placeholder,
+textarea::placeholder {
+  color: #E7ECEF;
 }
 
 textarea {
   padding: 16px 0 0 16px;
-  background-color: #fff;
+  background-color: transparent;
+  border: 2px solid #fff;
   border-radius: 6px;
   width: 70%;
   height: auto;
+  color: #E7ECEF;
 }
 
 /** contact section **/
@@ -479,6 +482,7 @@ footer {
 /**** media queries *****/
 
 @media screen and (min-width:768px) {
+
 
   /**** components ****/
 
@@ -535,6 +539,10 @@ footer {
     margin: 65px 16px 109px;
   }
 
+  .hero-content > h1 {
+    font-size: 32px;
+  }
+
   /**** hero section ****/
 
 
@@ -577,6 +585,12 @@ footer {
     width: 83%;
     margin-bottom: 20px;
   }
+
+  .project-info > p {
+    color: #E7ECEF;
+  }
+
+ 
 
   .project-cards {
     display: flex;
@@ -623,7 +637,7 @@ footer {
   /**** typeography ****/
 
   h2 {
-    font-size: 55px;
+    font-size: 32px;
   }
   
   /**** body ****/
@@ -693,6 +707,7 @@ footer {
   #Projects {
     margin-right: -103px;
     margin-left: -103px;
+    padding: 75px 0px 75px;
   }
 
   .project-info {
@@ -704,7 +719,7 @@ footer {
     gap: 30px;
   }
   .project-cards .project-card {
-    width: 27%;
+    width: 28%;
   }
 
   .project-info > h2{
@@ -714,7 +729,7 @@ footer {
 
   .project-info > p {
     font-size: 20px;
-    color: aliceblue;
+    color: #E7ECEF;
   }
 
   .project-content .link{
@@ -740,9 +755,15 @@ footer {
 
   /**** portfolio Contact ****/
 
+  #Contact {
+    margin-left: -110px;
+    margin-right: -110px;
+  }
+
   .contact-content {
     margin-left: -15px;
     margin-right: -15px;
+   
   }
  
   /**** portfolio Contact ****/
