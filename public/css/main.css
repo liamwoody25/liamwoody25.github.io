@@ -604,7 +604,12 @@ footer {
   }
 
   .project-cards .project-card {
-    width: 400px;
+    width: 43%;
+  }
+
+  .project-img {
+    object-fit: fill;
+    width: 100%;
   }
   /**** projects container ****/
 
