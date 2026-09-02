@@ -198,7 +198,13 @@ nav {
 /** hero section **/
 
 
+/*** skills and about me section ***/
 
+.skills-and-about-me {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
 
 /** Technical skills **/
 
@@ -697,15 +703,34 @@ footer {
 
   /**** hero section ****/
 
+ 
 
+
+/*** skills and about me section ***/
   
-
+  .skills-and-about-me {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
 
   /**** technical skills ****/
 
   #Skills {
-    margin-left:-103px;
+    padding: 49px 0 49px;
+    width: 50%;
+    margin-left:0px;
     margin-right: -103px;
+    height: auto;
+    margin-bottom: 65px;
+  }
+
+  .skills-content {
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
   }
 
   .html5-icon,
@@ -717,6 +742,22 @@ footer {
   }
 
   /**** technical skills ****/
+
+
+   #About-me {
+    background-color: #151515;
+    display: flex;
+    width: 47%;
+    margin: 0;
+    padding-top:0 ;
+    text-align: center;
+  }
+
+  .About-me > h2{
+    margin: 0;
+  }
+
+  
 
 
 
