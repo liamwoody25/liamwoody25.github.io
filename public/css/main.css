@@ -101,14 +101,14 @@ a:hover {
 
 .project-content .link {
   padding: 9px;
-  color: #fff;
+  color: #343a40;
   text-align: center;
   font-size: 12px;
-  background-color: #4682bb;
   border-radius: 8px;
+  border: 2px solid #343a40;
 }
 
-/**** a tags/ links ****/
+/*** a tags/ links ***/
 
 
 /*** portfolio components ***/
@@ -196,6 +196,8 @@ nav {
 }
 
 /** hero section **/
+
+
 
 
 /*** skills and about me section ***/
@@ -320,10 +322,11 @@ nav {
 }
 
 .project-cards .project-card {
-  border-radius: 20px;
+  border-radius: 15px;
   width: 98%;
   box-shadow: 0px 1px 12px -5px white;
   position: relative;
+   z-index: 2;
   overflow: hidden;
   
 }
@@ -331,24 +334,25 @@ nav {
 
 
 .project-card:hover .project-content {
+  background-color: #CED4DA;
   position: absolute;
-  top: 0px;
 }
 
 .project-content {
-  background-color: #415a77;
-  border-radius: 20px;
+  border-radius: 15px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   padding: 4px;
   position: absolute;
-  top: 250px;
   transition: 0.8s;
+  bottom: 2px;
+ 
 }
 
 .project-content > p {
   font-size: 14px;
+  color: #343a40;
   width: 98%;
 }
 
@@ -393,7 +397,7 @@ nav {
 
 .project-img {
   width: 100%;
-  border-radius: 20px;
+  border-radius: 15px;
   height: 245px;
   object-fit: fill;
 }
@@ -773,14 +777,22 @@ footer {
     margin-left: -24px;
   }
 
+  .project-carousel {
+    width: 90%;
+    display: flex;
+    border: 1px solid #ffff;
+    overflow-x: auto;
+  }
+
   .project-cards {
     display: flex;
     gap: 30px;
     justify-content: center;
+    align-items: center;
     
   }
   .project-cards .project-card {
-    width: 28%;
+    width: 31%;
   }
 
   .project-info > h2{
