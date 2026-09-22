@@ -401,7 +401,7 @@ nav {
 .project-img {
   width: 100%;
   border-radius: 10px;
-  height: 245px;
+  /* height: 245px; */
   object-fit: fill;
 }
 
@@ -792,11 +792,13 @@ footer {
   }
   .project-cards .project-card {
     width: 29%;
+    transition: trasnform 0.9s, bottom 0.9s;
   }
 
   .project-cards .project-card:hover {
-    position: relative;
+    transform: translate(0px, -10px);
     bottom: 20px;
+
   }
 
   .project-info > h2{
