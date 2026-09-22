@@ -286,6 +286,7 @@ nav {
 
 
 
+
 /** projects container **/
 
 #Projects {
@@ -322,9 +323,9 @@ nav {
 }
 
 .project-cards .project-card {
-  border-radius: 15px;
+  border-radius: 10px;
   width: 98%;
-  box-shadow: 0px 1px 12px -5px white;
+  box-shadow: 0px 4px 8px -6px lightgray;
   position: relative;
    z-index: 2;
   overflow: hidden;
@@ -336,6 +337,8 @@ nav {
 .project-card:hover .project-content {
   background-color: #CED4DA;
   position: absolute;
+  z-index: 1;
+  
 }
 
 .project-content {
@@ -347,7 +350,7 @@ nav {
   position: absolute;
   transition: 0.8s;
   bottom: 2px;
- 
+  z-index: -1;
 }
 
 .project-content > p {
@@ -358,7 +361,7 @@ nav {
 
 
 .project-content > h3 {
-  color: floralwhite;
+  color: #003049;
   font-size: 20px;
   margin-top: 5px;
 }
@@ -382,7 +385,7 @@ nav {
   gap: 20px;
 }
 
-.tech-content > h5 {
+.tech-content > h4 {
   color: #fff;
   margin-top: 8px;
   margin-bottom: 0;
@@ -397,7 +400,7 @@ nav {
 
 .project-img {
   width: 100%;
-  border-radius: 15px;
+  border-radius: 10px;
   height: 245px;
   object-fit: fill;
 }
@@ -576,6 +579,8 @@ footer {
   /**** technical skills ****/
 
 
+
+
   /**** About me ****/
 
   #About-me {
@@ -611,10 +616,11 @@ footer {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
+    gap: 25px;
   }
 
   .project-cards .project-card {
-    width: 43%;
+    width: 45%;
   }
 
   .project-img {
@@ -751,7 +757,7 @@ footer {
    #About-me {
     background-color: #151515;
     display: flex;
-    width: 47%;
+    width: 55%;
     margin: 0;
     padding-top:0 ;
     text-align: center;
@@ -777,22 +783,20 @@ footer {
     margin-left: -24px;
   }
 
-  .project-carousel {
-    width: 90%;
-    display: flex;
-    border: 1px solid #ffff;
-    overflow-x: auto;
-  }
-
   .project-cards {
     display: flex;
-    gap: 30px;
+    gap: 25px;
     justify-content: center;
     align-items: center;
     
   }
   .project-cards .project-card {
-    width: 31%;
+    width: 29%;
+  }
+
+  .project-cards .project-card:hover {
+    position: relative;
+    bottom: 20px;
   }
 
   .project-info > h2{
