@@ -788,16 +788,28 @@ footer {
     gap: 25px;
     justify-content: center;
     align-items: center;
-    
   }
   .project-cards .project-card {
     width: 29%;
-    transition: trasnform 0.9s, bottom 0.9s;
+    transition-property: transform, bottom;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.9s;
+  }
+
+  .project-content {
+    position: absolute;
+    bottom: 257px;
+    z-index: 0;
+  }
+
+  .project-card:hover .project-content {
+    position: absolute;
+    top: -2px;
   }
 
   .project-cards .project-card:hover {
     transform: translate(0px, -10px);
-    bottom: 20px;
+    bottom: 27px;
 
   }
 
