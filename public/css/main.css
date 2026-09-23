@@ -799,17 +799,19 @@ footer {
   .project-content {
     position: absolute;
     bottom: 257px;
+    height: 96%;
     z-index: 0;
   }
 
   .project-card:hover .project-content {
+    background-color: #CED4DA;
     position: absolute;
     top: -2px;
   }
 
   .project-cards .project-card:hover {
     transform: translate(0px, -10px);
-    bottom: 27px;
+    bottom: 24px;
 
   }
 
